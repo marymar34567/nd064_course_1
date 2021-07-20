@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: python-helloworld 
+  name: python-helloworld2 
   namespace: argocd
 spec:
   destination:
-    namespace: default
+    namespace: demo2
     server: https://kubernetes.default.svc
   project: default
   source:
